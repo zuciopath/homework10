@@ -1,0 +1,74 @@
+.first-name {  
+	width: 1200px;
+    height: 35px;
+    margin: 10px;
+}
+
+.first-img{
+	    margin: 12px;
+	    position: relative;
+}
+.container{
+	max-width: 1366px;
+	width: 100%;
+}
+
+.child-div{
+	padding: 0px 25px;
+    margin: 20px auto;
+}
+
+.all-text{
+	font-size: 24px;
+    color: #707070;
+    margin-left: 10px;
+}
+
+.all-checkbox{
+	display: flex;
+	margin: 10px;
+	font-size: 24px;
+    color: #707070;
+    margin-left: 10px;
+}
+
+.box{
+	margin-bottom: 10px;
+	margin-right: 200px;
+}
+
+.last-question{
+	margin-top: 60px;
+    margin-left: -16px;
+}
+
+.container2{
+	width: 1236px;
+    height: 185px;
+    margin-top: 10px;
+    margin-left: -8px;
+    border: solid #707070;
+}
+
+.send{
+	background-color: #103ADA;
+    width: 130px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: -8px;
+}
+
+.send p{
+	padding-top: 8px;
+    padding-left: 46px;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.img-text{
+	font-size: 40px;
+	color: #FFFAFA;
+	position: absolute;
+	top: 82px;
+    left: 548px
+}
