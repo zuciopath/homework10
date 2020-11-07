@@ -3,75 +3,62 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="page2.html">
-	<title>homework10</title>
+	<title>Homework10</title>
 </head>
 <body>
-	<!-- </div>first-labels -->
 	<div class="container">
-		<div class="child-div">
-			<div class="first-img" align="first-img">
-				<img src="images/first-pc.png">
-			</div>
-			<h1><a  class="img-text" href="#">Tour Booking Form</a></h1>
-			<h1 class="all-text">Name</h1>
-			<div class="labels">
-				<label for="name"></label>
-				<input class="first-name" type="text" name="first" id="first-name" placeholder="first"> 
-				<label for="name"></label>
-				<input class="first-name" type="text" name="last" id="last-name" placeholder="last">
-				<h1 class="all-text">Email</h1>
-				<label for="mail"></label>
-				<input class="first-name" type="mail" name="mail" id="mail" >
-				<h1 class="all-text">Phone</h1>
-				<label for="number"></label>
-				<input class="first-name" type="number" name="number" id="phone" placeholder="### ### ###">
-			</div>
-			<!--  -->
-			<h1 class="all-text">hobby</h1>
-			<div class="all-checkbox">	
-				<div class="checkbox">
+		<div class="cover">
+			<img src="images/first-pc.png" alt="Cover Image">
+			<h1 class="cover-text">Tour Booking Form</h1>
+		</div>
+		<form class="form1">
+			<h3 class="titles">Name</h3>
+			<input type="text" name="first-name" id="first-name" class="form1-input" placeholder="First"> 
+			<input type="text" name="last-name" id="last-name" class="form1-input" placeholder="Last">
+			<h3 class="titles">Email</h3>
+			<input type="mail" name="email" id="email" class="form1-input">
+			<h3 class="titles">Phone</h3>
+			<input type="number" name="number" id="phone" class="form1-input" placeholder="### ### ###">
+			<h3 class="titles">Hobby</h3>
+			<div class="hobby-checkbox">	
+				<div class="checkbox-column">
 					<div class="box">
-						<div class="box">
-							<input type="checkbox" name="reading">
-							<label for="checkbox"> Reading</label>
-						</div>
-						<div class="box">
-							<input type="checkbox" name="reading">
-							<label for="checkbox"> Dancing</label>
-						</div>
-						<div class="box">
-							<input type="checkbox" name="reading">
-							<label for="checkbox"> Traveiling</label>
-						</div>
+						<input type="checkbox" name="reading" id="reading">
+						<label for="reading"> Reading</label>
+					</div>
+					<div class="box">
+						<input type="checkbox" name="reading" id="dancing">
+						<label for="dancing"> Dancing</label>
+					</div>	
+					<div class="box">
+						<input type="checkbox" name="reading" id="traveling">
+						<label for="traveling"> Traveling</label>
 					</div>
 				</div>
-				<!-- checkbox-part2 -->
-				<div class="checkbox">
+				<div class="checkbox-column">
 					<div class="box">
-						<input type="checkbox" name="reading">
-						<label for="checkbox"> Coding</label>
+						<input type="checkbox" name="reading" id="coding">
+						<label for="coding"> Coding</label>
 					</div>
 					<div class="box">
-						<input type="checkbox" name="reading">
-						<label for="checkbox"> Design</label>
+						<input type="checkbox" name="reading" id="design">
+						<label for="design"> Design</label>
 					</div>
 					<div class="box">
-						<input type="checkbox" name="reading">
-						<label for="checkbox"> Either</label>
+						<input type="checkbox" name="reading" id="either">
+						<label for="either"> Either</label>
 					</div>
 				</div>
 			</div>
-			<h1 class="all-text">If phone, when is the best time of day for a call-back?</h1>
+			<h3 class="phone-question">If phone, when is the best time of day for a call-back?</h3>
 			<div class="last-question">
-				<h1 class="all-text">And last, how did you hear about us?</h1>
-			</div>
-			<div class="container2">	
-				<textarea class="container3" name="comment" id="comment">  </textarea>   
+				<label class="titles">And last, how did you hear about us?</label>
+				<textarea class="comment" name="comment" id="comment">  </textarea>
 			</div>
 			<div class="send">
-				<p><a href="page2.html">Send</a></p>
+				<a href="page2.html">Send</a>
 			</div>
-		</div>
-	</body>
-	</html>
+		</form>
+	</div>
+</body>
+</html>

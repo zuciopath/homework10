@@ -1,52 +1,64 @@
-.first-name {  
-	width: 1200px;
-    height: 35px;
-    margin: 10px;
+body {
+    padding: 97px 65px 35px 65px;
 }
-
-.first-img{
-	    margin: 12px;
-	    position: relative;
-	    display: flex;
+.container {
+    margin: 0 auto;
+    max-width: 1235px;
 }
-.container{
-	max-width: 1366px;
+.cover {
+    max-width: 900px;
+    position: relative;
+}
+.cover img {
+    width: 100%;
+}
+.cover-text {
+    font-size: 40px;
+    color: #FFFAFA;
+    position: absolute;
+    top: 14%;
+    left: 54%;
+}
+.form1 {
+    margin: 20px 0 0;
+}
+.form1-input {  
 	width: 100%;
+    height: 60px;
+    margin: 10px 0;
 }
-
-.child-div{
-	padding: 0px 25px;
-    margin: 20px auto;
-}
-
-.all-text{
+.titles{
 	font-size: 24px;
     color: #707070;
-    margin-left: 10px;
-    margin-bottom: 20px;
+    padding: 10px 0;
 }
-
-.all-checkbox{
+.hobby-checkbox{
 	display: flex;
-	margin: 10px;
+	margin: 0 0 0 10px;
 	font-size: 24px;
     color: #707070;
     margin-left: 10px;
 }
-
+.checkbox-column:first-child {
+    padding: 0 145px 0 0;
+}
 .box{
-	margin-bottom: 10px;
-    margin-right: 53px;
+	margin: 10px 0 0;
 }
-
-.last-question{
-	margin-top: 60px;
-    margin-left: -16px;
+.phone-question {
+    font-size: 24px;
+    color: #707070;
+    padding: 30px 0 40px 20px;
 }
-
-.container3{
-	width: 1187px;
+.last-question label {
+    display: block;
+}
+.comment{
+	width: 100%;
 	height: 185px;
+}
+textarea {
+    resize: none;
 }
 /*width: 1236px;
     height: 185px;
@@ -55,31 +67,18 @@
     border: solid #707070;*/
 .send{
 	background-color: #103ADA;
-    width: 130px;
-    height: 27px;
+    display: inline-block;
+    padding: 20px 86px 17px 77px;
     margin-top: 18px;
-    margin-left: -8px;
-    padding-top: 7px;
 }
 
 .send a{
-	padding-top: 8px;
-    padding-left: 46px;
     font-size: 15px;
     color: #FFFFFF;
     vertical-align: middle;
 }
-
-.img-text{
-	font-size: 40px;
-	color: #FFFAFA;
-	position: absolute;
-	top: 82px;
-    left: 548px
-}
-
 input{
-	    width: 32px;
+	width: 32px;
     height: 32px;
     vertical-align: middle;
 }
