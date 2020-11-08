@@ -3,33 +3,76 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<title>page2</title>
+	<title>Homework10 | Page2</title>
 </head>
 <body>
 	<div class="container">
-		<div class="first-img">
+		<div class="cover2">
 			<img src="images/family.png" alt="family">
-			<h1 class="page2-img">Tour Booking Form</h1>
+			<h1 class="cover-text2">Tour Booking Form</h1>
 		</div>
-		<h1 class="all-text">When are you planning to visit?</h1>
-	<div class="labels">
+		<form class="form1">
+			<div>
+				<h3 class="titles">When are you planning to visit?</h3>
 				<label for="name"></label>
-				<input class="first-name" type="text" name="name" id="name" class="input-form" placeholder="mm/dd/yyyy" required>
+				<input type="date" id="start" name="trip-start" class="form1-input" placeholder="mm/dd/yyyy" min="11/9/2020" max="12/12/2030" required>
 			</div>
-			<h1 class="all-text">How many people are in your group?</h1>
-			<label for="number"></label>
-				<input class="first-name" type="number" name="number" id="text1">
-				<h1 class="all-text">Which tours or events are you most interested in?</h1>
+			<div>
+				<h3 class="titles">How many people are in your group?</h3>
+				<label for="number"></label>
+				<input type="number" name="members" id="members" class="form1-input" min="1" max="99" required="">
+			</div>
+			<div>
+				<h3 class="titles">Which tours or events are you most interested in?</h3>
 				<label for="comment"></label>
-				<input class="first-name" type="number" name="number" id="text">
-				<h1 class="all-text">What is the best way to contact you?</h1>
-				<input type="checkbox" name="reading">
+				<input type="text" name="interest" id="interest" class="form1-input">
 			</div>
-			<div class="all-checkbox">
-				<div class="checkbox">
-					<label for="checkbox"> Phone</label>
+			<div>
+				<h3 class="titles">What is the best way to contact you?</h3>
+				<div class="checkbox-column">
+					<div class="box">
+						<input type="checkbox" name="phone" id="phone">
+						<label for="phone">Phone</label>
+					</div>
+					<div class="box">
+						<input type="checkbox" name="email" id="email">
+						<label for="email">Email</label>
+					</div>
+					<div class="box">
+						<input type="checkbox" name="either" id="either">
+						<label for="either">Either</label>
+					</div>
+				</div>				
+			</div>
+			<div>
+				<h3 class="titles">If phone, when is the best time of day for a call-back?</h3>
+				<div class="radio-column">
+					<div class="radio">
+						<input type="radio" name="call-back" id="8-11">
+						<label for="8-11">8-11 PM</label>
+					</div>
+					<div class="radio">
+						<input type="radio" name="call-back" id="12-4">
+						<label for="12-4">12-4 AM</label>
+					</div>
+					<div class="radio">
+						<input type="radio" name="call-back" id="6-10">
+						<label for="6-10">6-10 PM</label>
+					</div>
 				</div>
 			</div>
+			<div class="comment-div">
+				<label for="customer-comment" class="titles">Anything else we should know?</label>
+				<textarea class="comment" name="customer-comment" id="customer-comment">  </textarea>
+			</div>
+			<div class="comment-div">
+				<label for="info-source2" class="titles">And last, how did you hear about us?</label>
+				<textarea class="comment" name="info-source2" id="info-source2">  </textarea>
+			</div>
+			<div class="send">
+				<a href="index.html">Send</a>
+			</div>
+			
 	</div>
 
 </body>
