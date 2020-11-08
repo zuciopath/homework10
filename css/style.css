@@ -28,20 +28,22 @@ body {
     font-family: 'Segoe UI';
     font-size: 24px;
     color: #707070;
-	width: 100%;
+    width: 100%;
     height: 60px;
     margin: 10px 0;
 }
 .titles{
     font-family: 'Segoe UI';
-	font-size: 24px;
+    font-size: 24px;
     color: #707070;
     padding: 10px 0;
 }
 .hobby-checkbox{
-	display: flex;
-	margin: 0 0 0 10px;
-	font-size: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 0 0 10px;
+    font-size: 24px;
     color: #707070;
     margin-left: 10px;
 }
@@ -49,7 +51,7 @@ body {
     padding: 0 145px 0 0;
 }
 .box{
-	margin: 10px 0 0;
+    margin: 10px 0 0;
 }
 .phone-question {
     font-size: 24px;
@@ -60,14 +62,14 @@ body {
     display: block;
 }
 .comment{
-	width: 100%;
-	height: 185px;
+    width: 100%;
+    height: 185px;
 }
 textarea {
     resize: none;
 }
 .send{
-	background-color: #103ADA;
+    background-color: #103ADA;
     display: inline-block;
     padding: 20px 86px 17px 77px;
     margin-top: 18px;
@@ -81,7 +83,7 @@ textarea {
     vertical-align: middle;
 }
 .box input{
-	width: 32px;
+    width: 32px;
     height: 32px;
     vertical-align: middle;
 }
@@ -90,13 +92,20 @@ textarea {
     font-family: 'Segoe UI';
     font-size: 24px;
     color: #707070;
-	vertical-align: middle;
+    vertical-align: middle;
 }
 .cover2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 0 90px 0 0;
     margin-bottom: 45px;
 }
@@ -110,4 +119,3 @@ textarea {
     max-width: 690px;
     width: 100%;
 }
-
